@@ -38,7 +38,7 @@ def main():
         #render the world
         render(game["rooms"],current)
          #check for player input
-         user_input = check_input()
+        user_input = check_input()
         #Update the state of the world
        
 
