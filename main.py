@@ -8,16 +8,35 @@ assert sys.version_info >= version, "This script requires at least Python {0}.{1
 logging.basicConfig(format='[%(filename)s:%(lineno)d] %(message)s', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+def render (world,current_location):
+    '''print out a description of the current location'''
+    return True
 
+def check_input():
+    '''request input from the player, validate the input'''
+    user_input = input("What would you like to do?")
+    #do we want to validate?
+    return user_input
+
+def update():
+    '''check if we need to move to a new location, etc.'''
+    return true
 
 
 def main():
-    game = {}
+    game = {} #creating a dictionary 
     with open('zork.json') as json_file:
         game = json.load(json_file)
     # Your game goes here!
 
     current = 'WHOUS'
+    quit= False 
+    while not quit:
+        #render the world
+        user_input = check_input()
+         #check for player input
+        #Update the state of the world
+       
 
 
     return True
