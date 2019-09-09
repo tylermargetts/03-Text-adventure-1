@@ -10,6 +10,9 @@ logger = logging.getLogger(__name__)
 
 def render (world,current_location):
     '''print out a description of the current location'''
+    room = world[current_location]
+    print(room["name"])
+    print (room["desc"])
     return True
 
 def check_input():
@@ -33,8 +36,9 @@ def main():
     quit= False 
     while not quit:
         #render the world
-        user_input = check_input()
+        render(game["rooms"],current)
          #check for player input
+         user_input = check_input()
         #Update the state of the world
        
 
