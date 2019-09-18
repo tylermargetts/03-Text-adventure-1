@@ -96,6 +96,11 @@
               "condition": ""
             },
             {
+              "verb": "FIVE GUYS",
+              "target": "RESTAURANT4",
+              "condition": ""
+            },
+            {
               "verb": "ARBYS",
               "target": "END",
               "condition": ""
@@ -119,6 +124,11 @@
             },
             {
               "verb": "CHICK-FIL-A",
+              "target": "RESTAURANT3",
+              "condition": ""
+            },
+            {
+              "verb": "FIVE GUYS",
               "target": "RESTAURANT4",
               "condition": ""
             },
