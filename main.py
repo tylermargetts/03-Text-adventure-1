@@ -18,7 +18,7 @@ def render(game,current):
 def getInput():
     ''' Asks the user for input and returns a stripped, uppercase version of what they typed '''
 
-    response = input('What would you like to do? ').strip().upper()
+    response = input('What would you like to do?').strip().upper()
     return response
 
 

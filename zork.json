@@ -52,6 +52,11 @@
           "target": "END",
           "condition": ""
           },
+        {
+          "verb": "CHIPOTLE",
+          "target": "RESTAURANT2",
+          "condition": ""
+            },
          {
           "verb": "ARBYS",
           "target": "END",
