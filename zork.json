@@ -77,7 +77,7 @@
             },
             {
               "verb": "CHIPOTLE",
-              "target": "RESTAURANT4",
+              "target": "RESTAURANT2",
               "condition": ""
             },
             {
@@ -109,7 +109,7 @@
       "inventory": []
     },
     "RESTAURANT2": {
-      "name": "McDonalds",
+      "name": "CIA interrogation room",
       "desc": "Not a bad choice, there are a lot of good options at an affordable price, but sadly this is not the best fast food chain. However, because the CIA has respect for this decision they will allow you another chance. What restaurant will you pick?  ",
       "exits": [
           {
@@ -118,13 +118,13 @@
               "condition": ""
             },
             {
-              "verb": "CHIPOTLE",
+              "verb": "CHICK-FIL-A",
               "target": "RESTAURANT3",
               "condition": ""
             },
             {
-              "verb": "CHICK-FIL-A",
-              "target": "RESTAURANT3",
+              "verb": "IDK",
+              "target": "END",
               "condition": ""
             },
             {
@@ -141,7 +141,7 @@
         "inventory": []
     },
     "RESTAURANT3": {
-      "name": "CIA headquarters",
+      "name": "CIA interrogation room",
       "desc": "Alright you got some good taste, I'll give you that. But just to double check you aren't tryna fool us, what do you order here? ",
       "exits": [
           {
@@ -156,6 +156,11 @@
             },
             {
               "verb": "NUGGETS",
+              "target": "AWAKE",
+              "condition": ""
+            },
+            {
+              "verb": "MILKSHAKE",
               "target": "AWAKE",
               "condition": ""
             },
@@ -201,7 +206,7 @@
       "inventory": []
     },
     "END": {
-      "name": "oblivion",
+      "name": "Oblivion",
       "desc": "Are you kidding me? Your trechorous eating habits have landed you life behind bars. Scum.",
       "exits": [],
       "inventory": []
