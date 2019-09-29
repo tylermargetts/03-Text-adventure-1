@@ -1,0 +1,37 @@
+<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">Name:
+Date: 9/28/2019
+Project: text adventure
+Peer's repository: https://github.com/Ethan-source/03-Text-adventure
+What is something you learned by reviewing your peer's project?
+
+I have learned that there are countless ways to do this project, and that you dont need to use directional verbs to make a game out of a text adventure. 
+
+What is something you saw in your peer's project that you would like to apply to your own
+programming projects?
+
+I would like to incorporate more creative and funny text responses into my next game. 
+
+What suggestions would you have for your peer to improve his/her code?
+
+They could have used more synonyms for verbs in the library so it wasn't as tough to navigate through the game. They also could have used the exits functions given in the code provide to make navigation easier. 
+
+What could have been clearer or better commented?
+
+The process when the game ends could have been better communicated. 
+
+Was there anything in the code that was confusing to you? If so, what?
+
+Yes, it was confusing where to go and how to get out of situations after losing. 
+
+Does the repository contain an appropriate LICENSE?
+
+Yes
+
+What is something he/she could add to the README.md to make it more descriptive?
+
+They could have added the verbs needed to use and how specific it needed to be to progress through the game. 
+
+Pay a compliment to your peer based on the quality of his/her code.
+
+He was very creative in his story and di a good job utilizing the room system to create a story. 
+</pre></body></html>
